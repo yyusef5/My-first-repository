@@ -9,6 +9,10 @@ int main()
 
 	cout << num % 10;
 
+	num = num / 10;
+
+	cout << num;
+
 
 	return 0;
 }
